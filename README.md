@@ -36,8 +36,10 @@ Finally, we can utilize a graph classification model and assign labels to every 
 
 ## 2. Installation
 
-Before you start follow the instructions on the [INSTALL.md](./INSTALL.md)
-
+Before you start follow the instructions:
+* [INSTALL.md](./INSTALL.md)
+* [DATASETS.md](./DATASETS.md)
+* [PREPARATION.md](./PREPARATION.md)
 
 ## 3. Dataset
 
@@ -108,11 +110,4 @@ Graph-SAGE-Test.ipynb
 ## 5. Results 
 
 In both pipelines, the classifier underperforms. This could be due to various factors such as the dataset's scene labels, an unsuitable classifier architecture, or suboptimal model hyperparameters. In the main pipeline, we achieved a Test Accuracy of 0.533, while in the second pipeline, which doesn't employ compression, the Test Accuracy stands at 0.525. The primary purpose of this repository is to demonstrate a pipeline for Graph Scene Classification. Further work is needed to optimize performance.
-
-## 6. Usage
-Follow the instructions:
-
- * INSTALL.md
- * DATASET.md
- * PREPARATION.md
 
