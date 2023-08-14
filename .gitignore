@@ -1,0 +1,11 @@
+/apex/
+/cocoapi/
+/SceneGraph/
+/Graph_AE/
+/Scene-Graph-Benchmark.pytorch/
+/outputs/
+/checkpoints/
+/datasets/
+/Img2SceneGraph/
+**/__pycache__/
+
